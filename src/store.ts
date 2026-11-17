@@ -2,8 +2,8 @@ import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
-import type { Message, SiteContent } from "./types.ts";
-import { createSeed } from "./seed.ts";
+import type { Message, SiteContent } from "./types.js";
+import { createSeed } from "./seed.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = process.env.VERCEL ? process.cwd() : path.resolve(here, "..");

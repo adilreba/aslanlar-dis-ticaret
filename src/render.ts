@@ -1,5 +1,5 @@
-import type { SiteContent } from "./types.ts";
-import { LANGS, type Lang, type PageId, pagePath, t } from "./i18n.ts";
+import type { SiteContent } from "./types.js";
+import { LANGS, type Lang, type PageId, pagePath, t } from "./i18n.js";
 
 export function esc(value: string) {
   return value

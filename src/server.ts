@@ -5,7 +5,7 @@ import path from "path";
 import fs from "fs";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
-import type { Article, GalleryImage, Sector, Shot, SiteContent } from "./types.ts";
+import type { Article, GalleryImage, Sector, Shot, SiteContent } from "./types.js";
 import {
   checkPassword,
   ensureAuth,
@@ -15,10 +15,10 @@ import {
   saveContent,
   saveMessages,
   uid,
-} from "./store.ts";
-import { pageAbout, pageContact, pageHome, pageLegal, pageServices } from "./render.ts";
-import { isLang, matchPath, type Lang, type PageId } from "./i18n.ts";
-import { diffContent, loadPacks, prunePacks, savePacks, syncStructure, viewContent } from "./locale.ts";
+} from "./store.js";
+import { pageAbout, pageContact, pageHome, pageLegal, pageServices } from "./render.js";
+import { isLang, matchPath, type Lang, type PageId } from "./i18n.js";
+import { diffContent, loadPacks, prunePacks, savePacks, syncStructure, viewContent } from "./locale.js";
 
 const root = getRoot();
 const sessions = new Map<string, number>();

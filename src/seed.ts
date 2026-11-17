@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import type { Article, SiteContent } from "./types.ts";
+import type { Article, SiteContent } from "./types.js";
 
 function paragraphs(html: string): string {
   const parts = [...html.matchAll(/<p>([\s\S]*?)<\/p>/g)].map((m) =>

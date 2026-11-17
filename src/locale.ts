@@ -1,6 +1,6 @@
-import type { SiteContent } from "./types.ts";
-import type { Lang } from "./i18n.ts";
-import { getRoot } from "./store.ts";
+import type { SiteContent } from "./types.js";
+import type { Lang } from "./i18n.js";
+import { getRoot } from "./store.js";
 import fs from "fs";
 import path from "path";
 
