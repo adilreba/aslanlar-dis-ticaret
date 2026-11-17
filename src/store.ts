@@ -3,7 +3,7 @@ import path from "path";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
 import type { Message, SiteContent } from "./types.js";
-import { createSeed } from "./seed.js";
+import bundledContent from "../data/content.json" with { type: "json" };
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 
@@ -54,12 +54,8 @@ export function getRoot() {
 
 export function loadContent(): SiteContent {
   const existing = file("content.json");
-  if (!fs.existsSync(existing)) {
-    const seed = createSeed(root);
-    writeJson("content.json", seed);
-    return seed;
-  }
-  return readJson<SiteContent>("content.json", createSeed(root));
+  if (!fs.existsSync(existing)) return bundledContent as SiteContent;
+  return readJson<SiteContent>("content.json", bundledContent as SiteContent);
 }
 
 export function saveContent(content: SiteContent) {

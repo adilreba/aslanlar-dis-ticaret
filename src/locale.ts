@@ -1,6 +1,7 @@
 import type { SiteContent } from "./types.js";
 import type { Lang } from "./i18n.js";
 import { getRoot } from "./store.js";
+import bundledPacks from "../data/i18n.json" with { type: "json" };
 import fs from "fs";
 import path from "path";
 
@@ -14,7 +15,9 @@ function file() {
 
 export function loadPacks(): LocalePacks {
   const target = file();
-  if (!fs.existsSync(target)) return { en: {}, ru: {} };
+  if (!fs.existsSync(target)) {
+    return { en: bundledPacks.en || {}, ru: bundledPacks.ru || {} };
+  }
   const parsed = JSON.parse(fs.readFileSync(target, "utf8")) as Partial<LocalePacks>;
   return { en: parsed.en || {}, ru: parsed.ru || {} };
 }
