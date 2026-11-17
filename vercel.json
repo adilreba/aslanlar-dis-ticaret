@@ -5,7 +5,7 @@
       "src": "src/server.ts",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["data/**", "public/**", "assets/**"]
+        "includeFiles": "data/**,public/**,assets/**,*.html"
       }
     }
   ],

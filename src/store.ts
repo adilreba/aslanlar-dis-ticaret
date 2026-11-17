@@ -6,7 +6,28 @@ import type { Message, SiteContent } from "./types.js";
 import { createSeed } from "./seed.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const root = process.env.VERCEL ? process.cwd() : path.resolve(here, "..");
+
+function findRoot() {
+  const candidates = [process.cwd(), path.resolve(here, ".."), path.resolve(here, "../..")];
+  for (const dir of candidates) {
+    if (fs.existsSync(path.join(dir, "data", "content.json"))) return dir;
+  }
+  if (process.env.VERCEL) {
+    console.error(
+      "content.json was not found",
+      candidates.map((dir) => {
+        try {
+          return { dir, names: fs.readdirSync(dir) };
+        } catch {
+          return { dir, names: [] };
+        }
+      }),
+    );
+  }
+  return path.resolve(here, "..");
+}
+
+const root = findRoot();
 
 function file(name: string) {
   return path.join(root, "data", name);
