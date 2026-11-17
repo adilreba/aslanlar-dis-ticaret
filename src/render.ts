@@ -67,7 +67,7 @@ function shell(content: SiteContent, page: string, title: string, body: string, 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/site.css?v=7">
+  <link rel="stylesheet" href="/css/site.css?v=8">
 </head>
 <body class="${overHero ? "has-hero" : ""}">
   <a class="skip" href="#icerik">${esc(t(lang, "skip"))}</a>
