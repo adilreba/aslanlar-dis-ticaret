@@ -116,11 +116,13 @@ h2 { font-size: clamp(32px, 4vw, 44px); font-weight: 800; letter-spacing: -.03em
 .menu-btn span { display: block; height: 2px; margin: 6px 0; background: var(--ink); }
 
 .hero {
-  min-height: 680px;
+  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   align-items: center;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   padding: 72px 0;
 }
