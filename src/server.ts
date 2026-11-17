@@ -299,6 +299,7 @@ app.post("/api/articles", requireAuth, (req, res) => {
     id: uid("a"),
     title: String(req.body?.title || "Yeni yazı").trim(),
     body: String(req.body?.body || "").trim(),
+    image: "",
     visible: req.body?.visible !== false,
     order: content.articles.length + 1,
   };
