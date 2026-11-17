@@ -10,6 +10,9 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 function findRoot() {
   const candidates = [process.cwd(), path.resolve(here, ".."), path.resolve(here, "../..")];
   for (const dir of candidates) {
+    if (fs.existsSync(path.join(dir, "assets", "logo-siyah.png"))) return dir;
+  }
+  for (const dir of candidates) {
     if (fs.existsSync(path.join(dir, "data", "content.json"))) return dir;
   }
   if (process.env.VERCEL) {
