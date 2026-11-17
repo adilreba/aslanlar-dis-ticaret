@@ -1,0 +1,182 @@
+export type Lang = "tr" | "en" | "ru";
+export type PageId = "home" | "about" | "services" | "contact" | "cookies" | "privacy";
+
+export const LANGS: Lang[] = ["tr", "en", "ru"];
+
+export const PATHS: Record<PageId, Record<Lang, string>> = {
+  home: { tr: "/", en: "/en", ru: "/ru" },
+  about: { tr: "/hakkimizda", en: "/en/about", ru: "/ru/o-kompanii" },
+  services: { tr: "/hizmetlerimiz", en: "/en/services", ru: "/ru/uslugi" },
+  contact: { tr: "/iletisim", en: "/en/contact", ru: "/ru/kontakty" },
+  cookies: { tr: "/cerez-politikasi", en: "/en/cookie-policy", ru: "/ru/cookie" },
+  privacy: { tr: "/gizlilik-politikasi", en: "/en/privacy-policy", ru: "/ru/konfidencialnost" },
+};
+
+const UI: Record<Lang, Record<string, string>> = {
+  tr: {
+    brand: "Aslanlar Dış Ticaret",
+    skip: "İçeriğe geç",
+    navHome: "ANA SAYFA",
+    navAbout: "HAKKIMIZDA",
+    navServices: "HİZMETLERİMİZ",
+    navContact: "İLETİŞİM",
+    contactCta: "BİZE ULAŞIN",
+    aboutBtn: "Hakkımızda",
+    servicesBtn: "Hizmetlerimiz",
+    solutionsTitle: "Güvenilir Çözümler!",
+    solutionsLead: "Birçok sektöre yenilikçi ve kaliteli hizmetler sunarak iş ortaklarımızın başarılarına katkı sağlıyoruz. Güven, kalite ve sürdürülebilirlik temelinde çalışıyoruz.",
+    servicesEyebrow: "Uzmanlık alanlarımız",
+    servicesTitle: "Hizmet Alanları",
+    servicesLead: "Farklı sektörlerde uzmanlaşmış çözümlerimizle işinizi büyütüyor, her alanda güven ve kalite sunuyoruz.",
+    qualityAlt: "İnşaat sahasında vinç ve yükselen yapı",
+    expertiseAlt: "Küresel ticaret ve lojistik",
+    aboutAlt: "Limanda konteyner, vinç ve uçak",
+    address: "Adres",
+    email: "E-Posta",
+    name: "İsim Soyisim",
+    emailField: "E-Posta Adresiniz",
+    phone: "Telefon Numaranız",
+    message: "Mesajınız",
+    send: "Formu Gönder",
+    formOk: "Mesajınız alındı. En kısa sürede dönüş yapacağız.",
+    formError: "Mesaj gönderilemedi. Lütfen tekrar deneyin.",
+    cookies: "Çerez Politikası",
+    privacy: "Gizlilik Politikası",
+    quick: "Hızlı Menü",
+    vision: "Vizyonumuz",
+    areas: "Hizmet Alanlarımız",
+    mission: "Misyonumuz",
+    corporate: "Kurumsal",
+    reach: "Bize Ulaşın",
+    footerContact: "İletişim",
+    areaConstruction: "İnşaat",
+    areaEnergy: "Enerji",
+    areaElectric: "Elektrik Elektronik",
+    pageHome: "Aslanlar Dış Ticaret",
+    pageAbout: "HAKKIMIZDA – Aslanlar Dış Ticaret",
+    pageServices: "HİZMETLERİMİZ – Aslanlar Dış Ticaret",
+    pageContact: "İLETİŞİM – Aslanlar Dış Ticaret",
+    pageCookies: "Çerez Politikası – Aslanlar Dış Ticaret",
+    pagePrivacy: "Gizlilik Politikası – Aslanlar Dış Ticaret",
+    language: "Dil",
+    menu: "Menü",
+  },
+  en: {
+    brand: "Aslanlar Foreign Trade",
+    skip: "Skip to content",
+    navHome: "HOME",
+    navAbout: "ABOUT US",
+    navServices: "OUR SERVICES",
+    navContact: "CONTACT",
+    contactCta: "CONTACT US",
+    aboutBtn: "About us",
+    servicesBtn: "Our services",
+    solutionsTitle: "Reliable Solutions!",
+    solutionsLead: "We contribute to our partners' success with innovative, high-quality services across many industries. Trust, quality and sustainability guide our work.",
+    servicesEyebrow: "Our fields of expertise",
+    servicesTitle: "Service Areas",
+    servicesLead: "We help your business grow with specialist solutions in different industries, delivering trust and quality in every field.",
+    qualityAlt: "Crane and a rising building on a construction site",
+    expertiseAlt: "Global trade and logistics",
+    aboutAlt: "Containers, cranes and an aircraft at the port",
+    address: "Address",
+    email: "Email",
+    name: "Full name",
+    emailField: "Email address",
+    phone: "Phone number",
+    message: "Your message",
+    send: "Send form",
+    formOk: "Your message has been received. We will get back to you shortly.",
+    formError: "The message could not be sent. Please try again.",
+    cookies: "Cookie Policy",
+    privacy: "Privacy Policy",
+    quick: "Quick menu",
+    vision: "Our vision",
+    areas: "Our service areas",
+    mission: "Our mission",
+    corporate: "Corporate",
+    reach: "Contact us",
+    footerContact: "Contact",
+    areaConstruction: "Construction",
+    areaEnergy: "Energy",
+    areaElectric: "Electrical & Electronics",
+    pageHome: "Aslanlar Foreign Trade",
+    pageAbout: "ABOUT US – Aslanlar Foreign Trade",
+    pageServices: "OUR SERVICES – Aslanlar Foreign Trade",
+    pageContact: "CONTACT – Aslanlar Foreign Trade",
+    pageCookies: "Cookie Policy – Aslanlar Foreign Trade",
+    pagePrivacy: "Privacy Policy – Aslanlar Foreign Trade",
+    language: "Language",
+    menu: "Menu",
+  },
+  ru: {
+    brand: "Aslanlar Внешняя торговля",
+    skip: "Перейти к содержанию",
+    navHome: "ГЛАВНАЯ",
+    navAbout: "О КОМПАНИИ",
+    navServices: "УСЛУГИ",
+    navContact: "КОНТАКТЫ",
+    contactCta: "СВЯЗАТЬСЯ С НАМИ",
+    aboutBtn: "О компании",
+    servicesBtn: "Наши услуги",
+    solutionsTitle: "Надёжные решения!",
+    solutionsLead: "Мы помогаем партнёрам расти, предлагая инновационные и качественные услуги в разных отраслях. В основе нашей работы — доверие, качество и устойчивость.",
+    servicesEyebrow: "Наши направления",
+    servicesTitle: "Сферы услуг",
+    servicesLead: "Мы развиваем ваш бизнес отраслевыми решениями и обеспечиваем надёжность и качество в каждом направлении.",
+    qualityAlt: "Кран и строящееся здание на площадке",
+    expertiseAlt: "Мировая торговля и логистика",
+    aboutAlt: "Контейнеры, краны и самолёт в порту",
+    address: "Адрес",
+    email: "Эл. почта",
+    name: "Имя и фамилия",
+    emailField: "Адрес электронной почты",
+    phone: "Номер телефона",
+    message: "Ваше сообщение",
+    send: "Отправить",
+    formOk: "Сообщение получено. Мы ответим в ближайшее время.",
+    formError: "Не удалось отправить сообщение. Попробуйте ещё раз.",
+    cookies: "Политика cookie",
+    privacy: "Политика конфиденциальности",
+    quick: "Быстрое меню",
+    vision: "Наше видение",
+    areas: "Направления услуг",
+    mission: "Наша миссия",
+    corporate: "Компания",
+    reach: "Связаться с нами",
+    footerContact: "Контакты",
+    areaConstruction: "Строительство",
+    areaEnergy: "Энергетика",
+    areaElectric: "Электротехника",
+    pageHome: "Aslanlar Внешняя торговля",
+    pageAbout: "О КОМПАНИИ – Aslanlar Внешняя торговля",
+    pageServices: "УСЛУГИ – Aslanlar Внешняя торговля",
+    pageContact: "КОНТАКТЫ – Aslanlar Внешняя торговля",
+    pageCookies: "Политика cookie – Aslanlar Внешняя торговля",
+    pagePrivacy: "Политика конфиденциальности – Aslanlar Внешняя торговля",
+    language: "Язык",
+    menu: "Меню",
+  },
+};
+
+const LOOKUP = new Map<string, { lang: Lang; page: PageId }>();
+for (const page of Object.keys(PATHS) as PageId[]) {
+  for (const lang of LANGS) LOOKUP.set(PATHS[page][lang], { lang, page });
+}
+
+export function matchPath(pathname: string) {
+  const path = pathname.length > 1 && pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+  return LOOKUP.get(path) || null;
+}
+
+export function pagePath(lang: Lang, page: PageId) {
+  return PATHS[page][lang];
+}
+
+export function t(lang: Lang, key: string) {
+  return UI[lang][key] || UI.tr[key] || key;
+}
+
+export function isLang(value: string): value is Lang {
+  return value === "tr" || value === "en" || value === "ru";
+}

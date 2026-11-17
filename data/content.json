@@ -1,0 +1,311 @@
+{
+  "hero": {
+    "eyebrow": "Her sektöre lider dokunuş!",
+    "title": "İnşaattan Enerjiye; her alanda çözüm ortağınız!",
+    "text": "Güven, kalite ve sürdürülebilirlik odaklı yaklaşımımızla işinizi ileri taşıyoruz. Profesyonel ekibimizle her adımda yanınızdayız.",
+    "image": "/assets/banner.webp"
+  },
+  "sectors": [
+    {
+      "id": "insaat",
+      "title": "İnşaat",
+      "summary": "Modern yapılar için yenilikçi çözümler sunuyoruz. Projelendirmeden teslimata kadar her aşamada kaliteli ve güvenilir hizmet sağlıyoruz.",
+      "body": "",
+      "icon": "home",
+      "image": "",
+      "highlight": false,
+      "visible": true,
+      "order": 2,
+      "gallery": []
+    },
+    {
+      "id": "enerji",
+      "title": "Enerji",
+      "summary": "Aslanlar Dış Ticaret, yenilenebilir ve ileri enerji teknolojileriyle sürdürülebilir çözümler üretir. Mikroalg, IPLASMA ve mobil enerji sistemleriyle geleceğin enerji dönüşümüne yön verir.",
+      "body": "",
+      "icon": "energy",
+      "image": "",
+      "highlight": true,
+      "visible": true,
+      "order": 3,
+      "gallery": []
+    },
+    {
+      "id": "otomotiv",
+      "title": "Otomotiv Sanayi",
+      "summary": "Yedek parça, teknik destek ve yenilikçi çözümlerle otomotiv sektörünün ihtiyaçlarına cevap veriyoruz. Güçlü ve hızlı lojistik ağımızla fark yaratıyoruz.",
+      "body": "",
+      "icon": "car",
+      "image": "",
+      "highlight": false,
+      "visible": true,
+      "order": 4,
+      "gallery": []
+    },
+    {
+      "id": "lojistik",
+      "title": "Lojistik",
+      "summary": "Hızlı, güvenilir ve uygun maliyetli lojistik çözümlerimizle tedarik zincirinizi güçlendiriyoruz. Her sektöre özel stratejik taşımacılık hizmetleri sunuyoruz.",
+      "body": "",
+      "icon": "ship",
+      "image": "",
+      "highlight": false,
+      "visible": true,
+      "order": 5,
+      "gallery": []
+    },
+    {
+      "id": "uzay",
+      "title": "Uzay Havacılık",
+      "summary": "Savaş uçağı, helikopter, insansız hava aracı ve küçük uydu projelerinde teknik destek ve tedarik çözümleri sunuyoruz.",
+      "body": "Uzay ve havacılık alanında platform, sistem ve tedarik çözümleri sunuyoruz. Savaş uçağı, helikopter, insansız hava aracı ve küçük uydu projelerinde teknik destek ve dış ticaret süreçlerini yönetiyoruz.",
+      "icon": "plane",
+      "image": "/uploads/turk-savas-ucagi.jpg",
+      "highlight": false,
+      "visible": true,
+      "order": 1,
+      "gallery": [
+        {
+          "id": "g1",
+          "image": "/uploads/turk-savas-ucagi.jpg",
+          "caption": "Türk savaş uçağı",
+          "order": 1
+        },
+        {
+          "id": "g2",
+          "image": "/uploads/rus-helikopter.jpg",
+          "caption": "Rus helikopter",
+          "order": 2
+        },
+        {
+          "id": "g3",
+          "image": "/uploads/mi17.jpg",
+          "caption": "M17",
+          "order": 3
+        },
+        {
+          "id": "g4",
+          "image": "/uploads/su57.jpg",
+          "caption": "Su-57",
+          "order": 4
+        },
+        {
+          "id": "g5",
+          "image": "/uploads/uydu.jpg",
+          "caption": "Modern ufak uydu",
+          "order": 5
+        },
+        {
+          "id": "g6",
+          "image": "/uploads/dron.jpg",
+          "caption": "Dron",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "kicker": "Aslanlar Dış Ticaret",
+    "title": "Güven, hız, kalite!",
+    "text": "Birçok sektöre hitap eden güvenilir ve kaliteli hizmetler sunuyoruz. Hızlı, etkili çözümlerle işinizi ileriye taşıyoruz.",
+    "image": "/assets/crane.webp",
+    "features": [
+      {
+        "id": "f1",
+        "title": "Sektörel Çeşitlilik",
+        "text": "İnşaat, lojistik, otomotiv gibi birçok alanda uzmanlaşmış hizmetlerimizle geniş bir çözüm yelpazesi sunuyoruz. Farklı sektörlere hitap eden deneyimimizle işinizi büyütüyoruz.",
+        "order": 1
+      },
+      {
+        "id": "f2",
+        "title": "Güvenilirlik ve Kalite",
+        "text": "Tüm süreçlerde güven ve kaliteyi önceliklendiriyoruz. Uzman ekibimizle her detayı titizlikle ele alarak sürdürülebilir ve başarılı projelere imza atıyoruz.",
+        "order": 2
+      },
+      {
+        "id": "f3",
+        "title": "Hızlı ve Etkin Çözümler",
+        "text": "İş ortaklarımızın zamanını ve kaynaklarını en verimli şekilde kullanarak hızlı, ekonomik ve etkili çözümler sağlıyoruz. İhtiyaçlarınıza özel stratejiler geliştiriyoruz.",
+        "order": 3
+      }
+    ]
+  },
+  "portfolio": [
+    {
+      "id": "p1",
+      "image": "/assets/an1.png",
+      "caption": "Modern ve sağlam projelerle yaşam alanlarına değer katıyoruz. Güvenilir, yenilikçi ve kaliteli çözümler sunuyoruz.",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "p2",
+      "image": "/assets/an3.png",
+      "caption": "Hızlı ve güvenilir taşımacılık çözümleriyle tedarik zincirine kesintisiz destek veriyoruz.",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "p3",
+      "image": "/assets/an4.png",
+      "caption": "Enerji yönetimi ve teknoloji altyapılarında yenilikçi hizmetler sunarak işletmenizi güçlendiriyoruz.",
+      "visible": true,
+      "order": 3
+    }
+  ],
+  "expertise": {
+    "title": "Sektörel Uzmanlık",
+    "text": "Farklı sektörlerdeki tecrübemizle, her alanda ihtiyaçlarınıza özel çözümler sunuyoruz. Uzman ekibimizle işinizi büyütmek için yanınızdayız.",
+    "image": "/assets/expertise.webp",
+    "items": [
+      {
+        "id": "e1",
+        "label": "Elektronik - Teknolojik çözümler.",
+        "order": 1
+      },
+      {
+        "id": "e2",
+        "label": "İnşaat - Güvenilir yapılar.",
+        "order": 2
+      },
+      {
+        "id": "e3",
+        "label": "Otomotiv - Güçlü destek.",
+        "order": 3
+      },
+      {
+        "id": "e4",
+        "label": "Lojistik - Hızlı taşımacılık.",
+        "order": 4
+      },
+      {
+        "id": "e5",
+        "label": "Enerji",
+        "order": 5
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Biz Kimiz?",
+    "title": "İşinizde Güç Birliği!",
+    "lead": "Kalite, Güven ve Uzmanlıkla Sektörlere Özel Çözümler Sunuyoruz.",
+    "image": "/assets/an3.png",
+    "heading": "Hakkımızda",
+    "body": "Aslanlar Dış Ticaret olarak, geniş bir hizmet yelpazesiyle birçok sektöre değer katıyoruz. İnşaat, enerji, elektrik-elektronik, gıda, otomotiv sanayi ve lojistik gibi farklı alanlardaki uzmanlığımızla müşterilerimize yenilikçi ve güvenilir çözümler sunuyoruz.\n\nKurulduğumuz günden bu yana, kalite, güven ve sürdürülebilirlik ilkelerini temel alarak çalışıyoruz. Her sektörün kendine özgü dinamiklerini anlıyor, projelerimize bu anlayışla yaklaşıyoruz. Elektrik-elektronik alanında teknolojik çözümler sunarken, gıda sektöründe hijyen ve kaliteyi ön planda tutuyoruz. Otomotiv sanayisinde teknik destek ve yedek parça teminiyle müşterilerimizin yanında oluyor, lojistikte ise hızlı ve güvenilir taşımacılık çözümleriyle tedarik zincirlerini güçlendiriyoruz.\n\nAlanında uzman ekibimizle, iş ortaklarımızın ihtiyaçlarına özel stratejiler geliştiriyor ve her adımda profesyonel destek sunuyoruz. Yenilikçi bakış açımız, müşteri odaklı yaklaşımımız ve sektörel çeşitliliğimizle, Aslanlar Dış Ticaret olarak iş dünyasında fark yaratmaya devam ediyoruz. Başarıya ulaşmanız için birlikte çalışıyor ve işinizi ileriye taşımaktan gurur duyuyoruz.",
+    "goalsTitle": "Net Hedefler!",
+    "visionTitle": "Vizyonumuz",
+    "vision": "Farklı sektörlerde sunduğumuz yenilikçi ve güvenilir çözümlerle ulusal ve uluslararası alanda lider bir marka olmak. Kalite, sürdürülebilirlik ve müşteri memnuniyetini ön planda tutarak, iş dünyasında fark yaratan projelere imza atmayı hedefliyoruz.",
+    "missionTitle": "Misyonumuz",
+    "mission": "Müşterilerimize, inşaattan lojistiğe, enerjiden otomotive kadar her sektörde güvenilir ve kaliteli hizmet sunmak. Her projede uzmanlık ve deneyimle çözüm ortağı olarak hareket ederek, iş ortaklarımızın başarılarına katkı sağlamak ve sürdürülebilir iş birlikleri kurmak."
+  },
+  "articles": [
+    {
+      "id": "chlorella",
+      "title": "CHLORELLA ÜRETİM KOMPLEKSLERİ",
+      "body": "Aslanlar Dış Ticaret, sürdürülebilirlik ilkesiyle geliştirdiği Chlorella üretim kompleksleriyle biyoteknoloji alanında öncü bir rol üstlenmektedir. Bu kompleksler, yüksek verimlilik ve çevre dostu üretim teknikleriyle donatılmış olup, mikroalg tabanlı doğal içeriklerin endüstriyel ölçekte üretimini mümkün kılmaktadır. Modern tesis altyapımız, enerji tasarrufu sağlayan otomasyon sistemleriyle desteklenerek üretim süreçlerinde maksimum verim elde edilmesini sağlar.\n\nFirmamız, Chlorella üretiminde kullanılan tüm ekipman ve sistemleri uluslararası kalite standartlarına uygun olarak projelendirir ve uygular. Fotosentetik biyoreaktör sistemleri, besin dengesi kontrolü ve kapalı devre üretim teknolojileri sayesinde ürün kalitesini daima en üst seviyede tutarız. Bu sayede, hem gıda hem de kozmetik ve sağlık sektörleri için yüksek safiyetli Chlorella ürünleri elde edilir.\n\nAslanlar Dış Ticaret olarak amacımız, doğanın sunduğu en saf kaynaklardan biri olan mikroalgleri insanlığın hizmetine sunarken çevreye zarar vermeden üretim yapmaktır. Bu kapsamda, Ar-Ge faaliyetlerimizle üretim süreçlerini sürekli geliştiriyor, enerji verimliliğini artırıyor ve sürdürülebilir biyoteknoloji çözümlerine öncülük ediyoruz.",
+      "image": "/uploads/hizmet/new3.webp",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "mikroalg",
+      "title": "MİKROALG BAZLI BİYOTEKNOLOJİLER",
+      "body": "Mikroalg tabanlı biyoteknolojiler, geleceğin gıda, enerji ve çevre çözümlerinin temelini oluşturur. Aslanlar Dış Ticaret, mikroalglerin doğadan elde edilen olağanüstü biyokimyasal özelliklerini endüstriyel ölçekte değerlendirerek yenilikçi projeler üretmektedir. Bu teknolojiler; biyoyakıt, gıda takviyesi, ilaç, tarım ve çevre alanlarında çok yönlü çözümler sunar.\n\nFirmamız, mikroalg kültürleme sistemleri, fotobiyoreaktör teknolojileri ve ileri filtrasyon altyapılarıyla mikroorganizmalardan maksimum verim elde eder. Her proje, bilimsel doğruluk, endüstriyel verimlilik ve çevresel sorumluluk ilkeleriyle tasarlanır. Bu yaklaşım, hem ticari başarı hem de sürdürülebilir kalkınma hedeflerine katkı sağlar.\n\nAslanlar Dış Ticaret’in misyonu; biyoteknoloji alanında global ölçekte rekabet eden, yenilikçi ve çevreci çözümler geliştirmektir. Bu doğrultuda üniversiteler, araştırma merkezleri ve özel sektör kurumlarıyla iş birlikleri kurarak bilimi sanayiyle buluşturur, ülkemizi mikroalg tabanlı üretim teknolojilerinde öncü konuma taşır.",
+      "image": "/uploads/hizmet/new1.webp",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "iplasma",
+      "title": "IPLASMA TESİSLERİ",
+      "body": "IPLASMA tesisleri, enerji dönüşümü ve endüstriyel süreçlerde devrim yaratan yüksek teknoloji çözümleridir. Aslanlar Dış Ticaret, plazma teknolojilerini kullanarak atık yönetimi, enerji üretimi ve malzeme işleme süreçlerinde yenilikçi tesisler kurmaktadır. Bu sistemler, doğrudan enerji dönüşümü sağlayarak hem karbon emisyonlarını düşürür hem de üretim maliyetlerini azaltır.\n\nFirmamızın geliştirdiği IPLASMA sistemleri, ileri mühendislik prensipleriyle optimize edilmiştir. Her tesis, akıllı kontrol sistemleriyle donatılarak enerji dengesini sürekli analiz eder ve maksimum verim sağlar. Böylece, endüstriyel işletmeler için sürdürülebilir üretim altyapısı oluşturulur.\n\nAslanlar Dış Ticaret olarak hedefimiz, geleceğin enerji teknolojilerini bugüne taşımaktır. IPLASMA tesislerimiz sayesinde sanayi tesisleri, hem çevreye duyarlı hem de yüksek performanslı üretim kabiliyetine sahip olur. Bu sistemlerle, enerji bağımsızlığı ve çevre koruması artık birlikte mümkün hale gelmektedir.",
+      "image": "/uploads/hizmet/new5.webp",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "mobil",
+      "title": "MOBİL ENERJİ TEKNOLOJİLERİ VE ÇÖZÜMLERİ",
+      "body": "Aslanlar Dış Ticaret, enerjiye erişimin sınırlarını ortadan kaldıran mobil enerji teknolojileri geliştirir. Bu çözümler, özellikle saha operasyonları, afet bölgeleri ve mobil üretim alanları için yüksek verimlilik ve taşınabilir enerji sağlayan sistemlerden oluşur. Güneş enerjisi, batarya sistemleri ve hibrit güç ünitelerini bir araya getirerek her koşulda güvenilir enerji sunar.\n\nMobil enerji çözümlerimiz, çevre dostu malzemelerle üretilir ve uzun ömürlü batarya teknolojileriyle desteklenir. Akıllı yönetim yazılımları sayesinde enerji tüketimi izlenebilir ve optimize edilebilir. Bu özellikler, hem ekonomik hem de sürdürülebilir enerji kullanımını mümkün kılar.\n\nAslanlar Dış Ticaret olarak vizyonumuz, geleceğin enerji altyapısını mobil hale getirerek, enerjiye erişimi herkes için kolaylaştırmaktır. İleri mühendislik ve yenilenebilir enerji bileşenlerini birleştirerek taşınabilir güç sistemleriyle dünyada fark yaratıyoruz.",
+      "image": "/uploads/hizmet/new6.webp",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "enerji",
+      "title": "YENİLENEBİLİR ENERJİ VE EKOLOJİK ÇÖZÜMLER",
+      "body": "Yenilenebilir enerji, geleceğin yaşam standardını belirleyen en önemli unsurlardan biridir. Aslanlar Dış Ticaret, bu alanda geliştirdiği sistemlerle çevre dostu enerji üretimini teşvik eder. Güneş, rüzgar, biyokütle ve hidrojen teknolojilerini içeren çözümlerimizle, hem sanayi hem de bireysel kullanıcılar için sürdürülebilir enerji sistemleri geliştiriyoruz.\n\nFirmamız, projelendirme aşamasından uygulamaya kadar tüm süreçlerde yüksek mühendislik yaklaşımı benimser. Enerji verimliliği, karbon salınımı azaltımı ve doğa dostu üretim ilkeleri her projemizin temelini oluşturur. Böylece hem ekonomik kazanç hem de çevresel denge sağlanır.\n\nAslanlar Dış Ticaret, ekolojik sürdürülebilirliği sadece bir hedef değil, bir sorumluluk olarak görür. Her yenilenebilir enerji projemiz, gelecek nesillere daha yaşanabilir bir dünya bırakma vizyonuyla şekillenir.",
+      "image": "/uploads/hizmet/new4.webp",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "id": "mimari",
+      "title": "Özel Tasarım İnşaat ve İleri Teknolojik Mimari Çözümler",
+      "body": "Aslanlar Dış Ticaret, modern mühendislik anlayışıyla tasarlanmış özel inşaat projeleri ve ileri teknolojik mimari çözümler üretir. Her proje, estetik, fonksiyonellik ve dayanıklılığı bir arada sunacak şekilde planlanır. Akıllı bina sistemleri, yenilikçi yapı malzemeleri ve enerji verimliliği odaklı tasarımlar firmamızın farkını ortaya koyar.\n\nMimari projelerimiz, çevreyle uyumlu, sürdürülebilir ve teknolojik altyapıya sahip yapılar üzerine inşa edilir. İnşaat sürecinde kullanılan tüm malzeme ve sistemler uluslararası standartlara uygundur. Bu sayede hem güvenli hem de uzun ömürlü yaşam alanları oluşturulur.\n\nAslanlar Dış Ticaret olarak, sadece yapılar değil, geleceğin şehirlerini tasarlıyoruz. Akıllı mimari çözümlerimizle kent estetiğini ve yaşam konforunu yeniden tanımlıyoruz.",
+      "image": "/uploads/hizmet/new7.webp",
+      "visible": true,
+      "order": 7
+    },
+    {
+      "id": "lojistik",
+      "title": "Lojistik ve Dış Ticaret",
+      "body": "Global ticaretin hızla değişen dinamiklerine ayak uyduran Aslanlar Dış Ticaret, ithalat, ihracat ve lojistik süreçlerinde yenilikçi çözümler sunar. Uluslararası ağımız, güçlü tedarik zincirimiz ve stratejik ortaklıklarımız sayesinde ürünlerinizi dünyanın her noktasına güvenle ulaştırıyoruz.\n\nLojistik süreçlerimizde verimlilik ve zaman yönetimi ön plandadır. Akıllı takip sistemleri, depolama çözümleri ve özel taşıma planlamalarıyla müşterilerimize kesintisiz hizmet sağlıyoruz. Her aşamada şeffaflık ve güven ilkelerini esas alıyoruz.\n\nAslanlar Dış Ticaret olarak hedefimiz, müşterilerimize sadece bir tedarik hizmeti değil, stratejik bir ticaret ortağı sunmaktır. Global pazarın gerekliliklerine uygun profesyonel çözümlerimizle, iş ortaklarımızın rekabet gücünü artırıyoruz.",
+      "image": "/uploads/hizmet/new8.webp",
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "insaat",
+      "title": "İnşaat",
+      "body": "İnşaat sektöründe edindiğimiz deneyim ve uzmanlıkla, yaşam alanlarını ve iş yerlerini modern, sağlam ve estetik yapılarla geleceğe taşıyoruz. Her proje için yenilikçi ve sürdürülebilir yaklaşımlar geliştirerek, hem bireysel hem de kurumsal ihtiyaçlara uygun çözümler sunuyoruz.\n\nGüvenilirlik ve kalite odaklı çalışmalarımız, projelendirme aşamasından anahtar teslimine kadar her adımı kapsıyor. Proje tasarımı, mimari çözümler, teknik altyapı kurulumu ve detaylı planlama süreçlerinde profesyonel ekiplerimizle yanınızdayız. Hem küçük ölçekli projelerde hem de büyük çaplı inşaat yatırımlarında yüksek standartlarda hizmet veriyoruz.\n\nAmacımız sadece yapılar inşa etmek değil, aynı zamanda yaşam kalitesini artıran, çevreye duyarlı ve uzun ömürlü projeler geliştirmektir. Güven, kalite ve yenilik ilkelerimiz doğrultusunda, inşaat sektöründe fark yaratarak müşteri memnuniyetini en üst düzeyde tutmayı hedefliyoruz. Aslanlar Dış Ticaret ile sağlam temeller üzerine geleceğinizi inşa edin!",
+      "image": "/uploads/hizmet/hiz1.webp",
+      "visible": true,
+      "order": 9
+    },
+    {
+      "id": "elektrik",
+      "title": "Elektrik Elektronik",
+      "body": "Elektrik ve elektronik sektöründe yenilikçi, güvenilir ve sürdürülebilir çözümlerle işletmelerin ihtiyaçlarını karşılıyoruz. Modern teknolojiler ve uzman kadromuzla, enerji yönetiminden elektronik altyapı sistemlerine kadar geniş bir hizmet yelpazesi sunuyoruz.\n\nProjelerinizin tüm aşamalarında yanınızdayız; enerji verimliliği çözümleri, elektrik tesisat tasarımı, otomasyon sistemleri kurulumu ve elektronik cihaz entegrasyonu gibi konularda kapsamlı destek sağlıyoruz. İşletmenize özel çözümler üreterek, hem maliyetleri optimize ediyor hem de teknolojik altyapınızı geleceğe hazır hale getiriyoruz.\n\nAmacımız, sadece teknik çözümler sağlamak değil, aynı zamanda projelerinizin kesintisiz ve güvenilir şekilde işlemesini garanti etmektir. Elektrik ve elektronik alanında kalite, güvenlik ve yenilikçilik ilkeleriyle çalışarak, iş süreçlerinize değer katıyoruz. Elektrik ve elektronik ihtiyaçlarınızda, Aslanlar Dış Ticaret&#8217;in profesyonel yaklaşımıyla projelerinizi güvenle hayata geçirebilirsiniz.",
+      "image": "/uploads/hizmet/hiz3.webp",
+      "visible": true,
+      "order": 10
+    },
+    {
+      "id": "otomotiv",
+      "title": "Otomotiv Sanayi",
+      "body": "Otomotiv sanayi sektöründe, teknik uzmanlığımız ve yenilikçi çözümlerimizle iş ortaklarımızın yanında yer alıyoruz. Yedek parça temininden teknik destek hizmetlerine kadar geniş bir yelpazede güvenilir ve kaliteli hizmet sunuyoruz.\n\nAraç bakım ve onarım çözümleri, yedek parça tedariki ve sektöre özel teknik danışmanlık hizmetlerimizle işletmenizin ihtiyaçlarını eksiksiz karşılıyoruz. Hızlı ve etkili çözümlerle iş süreçlerinizin kesintisiz devam etmesini sağlarken, maliyet avantajlarıyla işinizi destekliyoruz.\n\nAmacımız yalnızca teknik ihtiyaçları karşılamak değil, aynı zamanda sektördeki yenilikleri takip ederek işletmenizi bir adım öne taşımaktır. Güven, kalite ve profesyonellik ilkeleriyle hareket ederek, otomotiv sektöründe güçlü bir çözüm ortağı olarak hizmet veriyoruz. Otomotiv sanayi ihtiyaçlarınızda Aslanlar Dış Ticaret ile tanışın ve işinizi ileriye taşıyın.",
+      "image": "/uploads/hizmet/hiz6.webp",
+      "visible": true,
+      "order": 11
+    },
+    {
+      "id": "uzay",
+      "title": "Uzay Havacılık",
+      "body": "Uzay ve havacılık alanında platform, sistem ve tedarik çözümleri sunuyoruz. Savaş uçağı, helikopter, insansız hava aracı ve küçük uydu projelerinde teknik destek ve dış ticaret süreçlerini yönetiyoruz.",
+      "visible": true,
+      "order": 1,
+      "image": "/uploads/turk-savas-ucagi.jpg"
+    }
+  ],
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Bize Ulaşın!",
+    "text": "Sorularınız, talepleriniz veya iş birliği fırsatları için bizimle iletişime geçmekten çekinmeyin. Ekibimiz size en kısa sürede yardımcı olmaktan mutluluk duyacaktır.",
+    "image": "/uploads/cotna1.webp",
+    "email": "info@aslanlardisticaret.com",
+    "address": "Zekeriyaköy Mah. Fırat Cad. No:5/1 SARIYER / İSTANBUL (Kızıl Elma Villa)",
+    "formTitle": "İletişim Formu",
+    "formText": "Bize ulaşmak için aşağıdaki formu doldurun. Taleplerinizi ve sorularınızı iletmeniz için buradayız!"
+  },
+  "footer": {
+    "blurb": "Aslanlar Dış Ticaret olarak, geniş bir hizmet yelpazesiyle birçok sektöre değer katıyoruz.",
+    "vision": "Farklı sektörlerde sunduğumuz yenilikçi ve güvenilir çözümlerle ulusal ve uluslararası alanda lider bir marka olmak.",
+    "mission": "Müşterilerimize, inşaattan lojistiğe, gıdadan otomotive kadar her sektörde güvenilir ve kaliteli hizmet sunmak.",
+    "reach": "Sorularınız, talepleriniz veya iş birliği fırsatları için bizimle iletişime geçmekten çekinmeyin."
+  },
+  "legal": {
+    "cookies": "Bu site, sayfaların düzgün açılması için tarayıcınızın tuttuğu zorunlu teknik bilgileri kullanır. Zorunlu çerezler oturum, güvenlik ve sayfa tercihleri içindir.\n\nŞu an sitede reklam veya üçüncü taraf analiz çerezi çalıştırılmamaktadır. Çerezleri tarayıcı ayarlarınızdan silebilir veya engelleyebilirsiniz.",
+    "privacy": "Aslanlar Dış Ticaret, iletişim formu üzerinden ilettiğiniz ad, e-posta, telefon ve mesaj içeriğini yalnızca talebinize yanıt vermek için kullanır.\n\nBu bilgiler satılmaz. Verilerinizle ilgili soru veya silme talebi için info@aslanlardisticaret.com adresine yazabilirsiniz."
+  }
+}

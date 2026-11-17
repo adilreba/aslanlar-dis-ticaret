@@ -1,0 +1,354 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "A leading touch in every industry!",
+      "title": "From construction to energy, your solution partner in every field!",
+      "text": "We move your business forward with an approach built on trust, quality and sustainability. Our professional team is with you at every step."
+    },
+    "sectors": [
+      {
+        "id": "insaat",
+        "title": "Construction",
+        "summary": "We deliver innovative solutions for modern buildings. From planning to handover, we provide a reliable, high-quality service at every stage."
+      },
+      {
+        "id": "enerji",
+        "title": "Energy",
+        "summary": "Aslanlar Foreign Trade develops sustainable solutions with renewable and advanced energy technologies. Microalgae, IPLASMA and mobile energy systems help shape the energy transition."
+      },
+      {
+        "id": "otomotiv",
+        "title": "Automotive Industry",
+        "summary": "We meet the needs of the automotive industry with spare parts, technical support and innovative solutions. Our strong, fast logistics network makes the difference."
+      },
+      {
+        "id": "lojistik",
+        "title": "Logistics",
+        "summary": "Our fast, reliable and cost-effective logistics solutions strengthen your supply chain. We plan transport around the needs of each industry."
+      },
+      {
+        "id": "uzay",
+        "title": "Aerospace",
+        "summary": "We provide technical support and procurement for fighter aircraft, helicopters, unmanned aerial vehicles and small satellite projects.",
+        "body": "We offer platform, system and procurement solutions in aerospace. We manage technical support and foreign-trade processes for fighter aircraft, helicopters, unmanned aerial vehicles and small satellite projects.",
+        "gallery": [
+          { "id": "g1", "caption": "Turkish fighter jet" },
+          { "id": "g2", "caption": "Russian helicopter" },
+          { "id": "g3", "caption": "Mi-17" },
+          { "id": "g4", "caption": "Su-57" },
+          { "id": "g5", "caption": "Small modern satellite" },
+          { "id": "g6", "caption": "Drone" }
+        ]
+      }
+    ],
+    "quality": {
+      "kicker": "Aslanlar Foreign Trade",
+      "title": "Trust, speed, quality!",
+      "text": "We provide reliable, high-quality services for many industries. Fast and effective solutions take your business further.",
+      "features": [
+        {
+          "id": "f1",
+          "title": "Industry range",
+          "text": "Our specialist services in construction, logistics, automotive and other fields give you a wide set of solutions. Experience across industries helps your business grow."
+        },
+        {
+          "id": "f2",
+          "title": "Reliability and quality",
+          "text": "Trust and quality come first in every process. Our expert team handles each detail carefully and delivers sustainable, successful projects."
+        },
+        {
+          "id": "f3",
+          "title": "Fast, effective solutions",
+          "text": "We use our partners' time and resources efficiently and deliver fast, economical solutions. We build strategies around your needs."
+        }
+      ]
+    },
+    "portfolio": [
+      {
+        "id": "p1",
+        "caption": "We add value to living spaces with modern, solid projects and offer reliable, innovative, high-quality solutions."
+      },
+      {
+        "id": "p2",
+        "caption": "Fast, reliable transport solutions keep the supply chain moving without interruption."
+      },
+      {
+        "id": "p3",
+        "caption": "We strengthen your business with innovative services in energy management and technology infrastructure."
+      }
+    ],
+    "expertise": {
+      "title": "Sector expertise",
+      "text": "With experience across industries, we offer solutions tailored to your needs in every field. Our expert team is here to help your business grow.",
+      "items": [
+        { "id": "e1", "label": "Electronics — technology solutions." },
+        { "id": "e2", "label": "Construction — reliable buildings." },
+        { "id": "e3", "label": "Automotive — strong support." },
+        { "id": "e4", "label": "Logistics — fast transport." },
+        { "id": "e5", "label": "Energy" }
+      ]
+    },
+    "about": {
+      "eyebrow": "Who are we?",
+      "title": "A stronger partnership for your business!",
+      "lead": "We deliver industry-specific solutions with quality, trust and expertise.",
+      "heading": "About us",
+      "body": "As Aslanlar Foreign Trade, we add value to many industries through a wide range of services. With expertise in construction, energy, electrical and electronics, food, the automotive industry and logistics, we offer our clients innovative and reliable solutions.\n\nSince our founding we have worked on the principles of quality, trust and sustainability. We understand the dynamics of each industry and approach every project accordingly. We provide technology solutions in electrical and electronics, put hygiene and quality first in food, stand beside our clients in the automotive industry with technical support and spare parts, and strengthen supply chains with fast, reliable transport.\n\nWith a specialist team, we develop strategies for our partners' needs and provide professional support at every step. Our innovative outlook, client focus and industry range continue to set Aslanlar Foreign Trade apart. We are proud to work with you and take your business further.",
+      "goalsTitle": "Clear goals!",
+      "visionTitle": "Our vision",
+      "vision": "To become a leading brand at home and abroad through innovative, reliable solutions in different industries. We aim to deliver projects that stand out, with quality, sustainability and client satisfaction at the front.",
+      "missionTitle": "Our mission",
+      "mission": "To provide reliable, high-quality service in every industry, from construction to logistics and from energy to automotive. On each project we act as an expert partner, contribute to our partners' success and build lasting cooperation."
+    },
+    "articles": [
+      {
+        "id": "chlorella",
+        "title": "CHLORELLA PRODUCTION COMPLEXES",
+        "body": "Aslanlar Foreign Trade takes a leading role in biotechnology with chlorella production complexes developed on the principle of sustainability. These complexes use high-efficiency, environmentally responsible production methods and make industrial-scale production of natural microalgae ingredients possible. Our modern plant infrastructure is supported by energy-saving automation so that each stage of production yields as much as possible.\n\nWe design and install all equipment and systems used in chlorella production to international quality standards. Photosynthetic bioreactors, nutrient-balance control and closed-loop production technology keep product quality at the highest level. The result is high-purity chlorella for the food, cosmetics and health industries.\n\nOur aim is to put microalgae, one of nature's purest resources, at the service of people without harming the environment. Through research and development we keep improving production, raise energy efficiency and lead sustainable biotechnology."
+      },
+      {
+        "id": "mikroalg",
+        "title": "MICROALGAE-BASED BIOTECHNOLOGIES",
+        "body": "Microalgae-based biotechnologies underpin the food, energy and environmental solutions of the future. Aslanlar Foreign Trade turns the remarkable biochemical properties of microalgae into innovative industrial projects. These technologies offer solutions in biofuel, food supplements, pharmaceuticals, agriculture and the environment.\n\nWith cultivation systems, photobioreactors and advanced filtration, we draw the greatest possible yield from microorganisms. Every project is designed for scientific accuracy, industrial efficiency and environmental responsibility. That approach supports both commercial success and sustainable development.\n\nOur mission in biotechnology is to develop innovative, environmentally responsible solutions that can compete globally. We work with universities, research centres and private companies to connect science with industry and to advance microalgae production technology."
+      },
+      {
+        "id": "iplasma",
+        "title": "IPLASMA PLANTS",
+        "body": "IPLASMA plants are advanced systems for energy conversion and industrial processes. Using plasma technology, Aslanlar Foreign Trade builds innovative facilities for waste management, energy production and materials processing. Direct energy conversion lowers both carbon emissions and production costs.\n\nOur IPLASMA systems are optimised with advanced engineering. Each plant uses intelligent controls that continually analyse the energy balance and maximise yield, giving industrial businesses a sustainable production base.\n\nOur goal is to bring the energy technologies of the future into use today. With IPLASMA plants, industrial sites can produce at high performance and with care for the environment. Energy independence and environmental protection become possible together."
+      },
+      {
+        "id": "mobil",
+        "title": "MOBILE ENERGY TECHNOLOGIES AND SOLUTIONS",
+        "body": "Aslanlar Foreign Trade develops mobile energy technologies that remove the limits on access to power. These systems are built for field operations, disaster areas and mobile production, combining solar energy, batteries and hybrid power units so that reliable energy is available in any conditions.\n\nOur mobile solutions use environmentally responsible materials and long-life batteries. Intelligent management software monitors and optimises consumption, making energy use both economical and sustainable.\n\nOur vision is to make the energy infrastructure mobile and access to energy easier for everyone. By combining advanced engineering with renewable components, we create portable power systems that stand apart."
+      },
+      {
+        "id": "enerji",
+        "title": "RENEWABLE ENERGY AND ECOLOGICAL SOLUTIONS",
+        "body": "Renewable energy is one of the main forces shaping how we will live. Aslanlar Foreign Trade encourages cleaner generation with systems built around solar, wind, biomass and hydrogen, for both industry and individual users.\n\nFrom design to installation we apply a high standard of engineering. Energy efficiency, lower carbon emissions and nature-friendly production are the basis of every project, so economic benefit and environmental balance go together.\n\nWe treat ecological sustainability as a responsibility, not only a target. Each renewable project is shaped by the aim of leaving a more liveable world to the next generation."
+      },
+      {
+        "id": "mimari",
+        "title": "Custom Construction and Advanced Architectural Solutions",
+        "body": "Aslanlar Foreign Trade delivers custom construction projects and advanced architectural solutions designed with a modern engineering approach. Every project is planned to combine appearance, function and durability. Smart building systems, innovative materials and energy-efficient design set our work apart.\n\nOur architecture is built to fit its surroundings, to last and to carry a strong technical infrastructure. Materials and systems meet international standards, creating safe living spaces with a long service life.\n\nWe design more than buildings: we design the cities of the future. Our intelligent architectural solutions redefine urban character and the comfort of daily life."
+      },
+      {
+        "id": "lojistik",
+        "title": "Logistics and Foreign Trade",
+        "body": "Aslanlar Foreign Trade keeps pace with global trade and offers innovative solutions for import, export and logistics. Our international network, strong supply chain and strategic partnerships carry your products safely anywhere in the world.\n\nEfficiency and time management lead our logistics work. Tracking systems, storage and dedicated transport plans give clients an uninterrupted service. Transparency and trust guide every stage.\n\nWe aim to be a strategic trading partner, not only a supplier. Professional solutions matched to the global market increase our partners' competitive strength."
+      },
+      {
+        "id": "insaat",
+        "title": "Construction",
+        "body": "With our experience in construction, we carry homes and workplaces into the future as modern, solid and well-designed buildings. For every project we develop an innovative, sustainable approach and solutions for both private and corporate needs.\n\nOur work, focused on reliability and quality, covers every step from design to turnkey delivery. Professional teams support you in project design, architecture, technical infrastructure and detailed planning, on small projects and on large investments alike.\n\nOur aim is not only to build, but to develop long-lasting projects that raise the quality of life and respect the environment. Trust, quality and innovation keep client satisfaction at the highest level. Build your future on solid foundations with Aslanlar Foreign Trade."
+      },
+      {
+        "id": "elektrik",
+        "title": "Electrical & Electronics",
+        "body": "We meet businesses' needs in electrical and electronics work with innovative, reliable and sustainable solutions. With modern technology and a specialist team, our services run from energy management to electronic infrastructure.\n\nWe stay with your project at every stage: energy-efficiency solutions, electrical installation design, automation and the integration of electronic equipment. Solutions built for your business reduce cost and prepare your technical infrastructure for what comes next.\n\nOur aim is not only to supply technology, but to keep your project running without interruption. Quality, safety and innovation add value to your operations. With Aslanlar Foreign Trade, electrical and electronics projects can be delivered with confidence."
+      },
+      {
+        "id": "otomotiv",
+        "title": "Automotive Industry",
+        "body": "In the automotive industry we stand beside our partners with technical expertise and innovative solutions. From spare parts to technical support, we provide a reliable, high-quality service across a wide range.\n\nVehicle maintenance and repair, parts supply and specialist technical advice cover your business needs. Fast solutions keep operations moving, and cost advantages support your work.\n\nWe do more than meet a technical need: we follow what is new in the industry and help your business move ahead. Trust, quality and professionalism make us a strong partner. Meet Aslanlar Foreign Trade for your automotive needs and take your business further."
+      },
+      {
+        "id": "uzay",
+        "title": "Aerospace",
+        "body": "We offer platform, system and procurement solutions in aerospace. We manage technical support and foreign-trade processes for fighter aircraft, helicopters, unmanned aerial vehicles and small satellite projects."
+      }
+    ],
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Contact us!",
+      "text": "Do not hesitate to reach us with your questions, requests or partnership ideas. Our team will be glad to help you as soon as possible.",
+      "formTitle": "Contact form",
+      "formText": "Fill in the form below to reach us. We are here for your requests and questions."
+    },
+    "footer": {
+      "blurb": "As Aslanlar Foreign Trade, we add value to many industries through a wide range of services.",
+      "vision": "To become a leading brand at home and abroad through innovative, reliable solutions in different industries.",
+      "mission": "To provide our clients with a reliable, high-quality service in every industry, from construction and logistics to food and automotive.",
+      "reach": "Do not hesitate to contact us with your questions, requests or partnership ideas."
+    },
+    "legal": {
+      "cookies": "This site uses the essential technical information your browser stores so that pages open correctly. Essential cookies are for the session, security and page preferences.\n\nThe site does not currently run advertising or third-party analytics cookies. You can delete or block cookies in your browser settings.",
+      "privacy": "Aslanlar Foreign Trade uses the name, email, phone number and message you send through the contact form only to reply to your request.\n\nThis information is not sold. For a question about your data, or to ask for it to be deleted, write to info@aslanlardisticaret.com."
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Лидерский подход в каждой отрасли!",
+      "title": "От строительства до энергетики — ваш партнёр в любой сфере!",
+      "text": "Мы развиваем ваш бизнес, опираясь на доверие, качество и устойчивость. Профессиональная команда рядом на каждом этапе."
+    },
+    "sectors": [
+      {
+        "id": "insaat",
+        "title": "Строительство",
+        "summary": "Мы предлагаем инновационные решения для современных зданий. От проекта до сдачи обеспечиваем надёжность и качество на каждом этапе."
+      },
+      {
+        "id": "enerji",
+        "title": "Энергетика",
+        "summary": "Aslanlar Внешняя торговля создаёт устойчивые решения на основе возобновляемой и передовой энергетики. Микроводоросли, IPLASMA и мобильные энергосистемы участвуют в энергетическом переходе."
+      },
+      {
+        "id": "otomotiv",
+        "title": "Автомобильная промышленность",
+        "summary": "Мы закрываем потребности автопрома запасными частями, технической поддержкой и новыми решениями. Сильная и быстрая логистика создаёт преимущество."
+      },
+      {
+        "id": "lojistik",
+        "title": "Логистика",
+        "summary": "Быстрые, надёжные и выгодные логистические решения укрепляют вашу цепочку поставок. Перевозку мы планируем под задачи каждой отрасли."
+      },
+      {
+        "id": "uzay",
+        "title": "Авиация и космос",
+        "summary": "Мы обеспечиваем техническую поддержку и поставки для проектов истребителей, вертолётов, беспилотников и малых спутников.",
+        "body": "Мы предлагаем платформы, системы и поставки в авиации и космосе. Ведём техническое сопровождение и внешнеторговые процессы по истребителям, вертолётам, беспилотникам и малым спутникам.",
+        "gallery": [
+          { "id": "g1", "caption": "Турецкий истребитель" },
+          { "id": "g2", "caption": "Российский вертолёт" },
+          { "id": "g3", "caption": "Ми-17" },
+          { "id": "g4", "caption": "Су-57" },
+          { "id": "g5", "caption": "Современный малый спутник" },
+          { "id": "g6", "caption": "Дрон" }
+        ]
+      }
+    ],
+    "quality": {
+      "kicker": "Aslanlar Внешняя торговля",
+      "title": "Доверие, скорость, качество!",
+      "text": "Мы оказываем надёжные и качественные услуги для разных отраслей. Быстрые и точные решения продвигают ваш бизнес.",
+      "features": [
+        {
+          "id": "f1",
+          "title": "Отраслевой охват",
+          "text": "Специализированные услуги в строительстве, логистике, автопроме и других сферах дают широкий набор решений. Опыт в разных отраслях помогает вашему бизнесу расти."
+        },
+        {
+          "id": "f2",
+          "title": "Надёжность и качество",
+          "text": "Доверие и качество стоят на первом месте в каждом процессе. Команда тщательно прорабатывает детали и реализует устойчивые успешные проекты."
+        },
+        {
+          "id": "f3",
+          "title": "Быстрые и точные решения",
+          "text": "Мы бережно используем время и ресурсы партнёров и предлагаем быстрые, экономичные решения. Стратегию строим под вашу задачу."
+        }
+      ]
+    },
+    "portfolio": [
+      {
+        "id": "p1",
+        "caption": "Современные и прочные проекты повышают ценность среды, в которой живут люди. Мы предлагаем надёжные, инновационные и качественные решения."
+      },
+      {
+        "id": "p2",
+        "caption": "Быстрые и надёжные перевозки поддерживают цепочку поставок без перебоев."
+      },
+      {
+        "id": "p3",
+        "caption": "Инновационные услуги в управлении энергией и технологической инфраструктуре усиливают ваш бизнес."
+      }
+    ],
+    "expertise": {
+      "title": "Отраслевая экспертиза",
+      "text": "Опыт в разных отраслях позволяет предлагать решение под вашу задачу в любой сфере. Команда экспертов помогает бизнесу расти.",
+      "items": [
+        { "id": "e1", "label": "Электроника — технологические решения." },
+        { "id": "e2", "label": "Строительство — надёжные объекты." },
+        { "id": "e3", "label": "Автопром — сильная поддержка." },
+        { "id": "e4", "label": "Логистика — быстрые перевозки." },
+        { "id": "e5", "label": "Энергетика" }
+      ]
+    },
+    "about": {
+      "eyebrow": "Кто мы?",
+      "title": "Сильное партнёрство для вашего дела!",
+      "lead": "Отраслевые решения на основе качества, доверия и экспертизы.",
+      "heading": "О компании",
+      "body": "Aslanlar Внешняя торговля создаёт ценность для многих отраслей широким спектром услуг. Экспертиза в строительстве, энергетике, электротехнике и электронике, пищевой отрасли, автопроме и логистике позволяет предлагать клиентам инновационные и надёжные решения.\n\nС первого дня мы работаем на принципах качества, доверия и устойчивости. Мы понимаем особенности каждой отрасли и так подходим к проектам. В электротехнике предлагаем технологические решения, в пищевой отрасли ставим на первое место гигиену и качество, в автопроме сопровождаем клиентов технической поддержкой и запчастями, а в логистике укрепляем цепочки поставок быстрыми и надёжными перевозками.\n\nКоманда специалистов разрабатывает стратегии под задачи партнёров и оказывает профессиональную поддержку на каждом шаге. Инновационный взгляд, ориентация на клиента и отраслевое разнообразие отличают Aslanlar Внешняя торговля. Мы гордимся тем, что работаем вместе с вами и продвигаем ваш бизнес.",
+      "goalsTitle": "Ясные цели!",
+      "visionTitle": "Наше видение",
+      "vision": "Стать ведущим брендом в стране и за её пределами благодаря инновационным и надёжным решениям в разных отраслях. Мы стремимся к проектам, которые выделяются качеством, устойчивостью и удовлетворённостью клиентов.",
+      "missionTitle": "Наша миссия",
+      "mission": "Оказывать надёжные и качественные услуги в каждой отрасли — от строительства до логистики, от энергетики до автопрома. В каждом проекте мы выступаем экспертным партнёром, вносим вклад в успех клиентов и строим долгосрочное сотрудничество."
+    },
+    "articles": [
+      {
+        "id": "chlorella",
+        "title": "КОМПЛЕКСЫ ПО ПРОИЗВОДСТВУ ХЛОРЕЛЛЫ",
+        "body": "Aslanlar Внешняя торговля занимает ведущую роль в биотехнологиях благодаря комплексам по производству хлореллы, созданным на принципе устойчивости. Комплексы оснащены высокоэффективными и экологичными технологиями и позволяют выпускать природные компоненты на основе микроводорослей в промышленном масштабе. Современная инфраструктура и энергосберегающая автоматика дают максимальную отдачу на каждом этапе.\n\nВсё оборудование и системы для производства хлореллы мы проектируем и внедряем по международным стандартам качества. Фотосинтетические биореакторы, контроль питательного баланса и замкнутый цикл производства держат качество продукта на высшем уровне. Так получают хлореллу высокой чистоты для пищевой, косметической и медицинской отраслей.\n\nНаша цель — поставить микроводоросли, один из чистейших ресурсов природы, на службу людям, не нанося вреда среде. Исследования постоянно улучшают производство, повышают энергоэффективность и развивают устойчивые биотехнологии."
+      },
+      {
+        "id": "mikroalg",
+        "title": "БИОТЕХНОЛОГИИ НА ОСНОВЕ МИКРОВОДОРОСЛЕЙ",
+        "body": "Биотехнологии на основе микроводорослей лежат в основе будущих решений для пищи, энергии и окружающей среды. Aslanlar Внешняя торговля превращает выдающиеся биохимические свойства микроводорослей в инновационные промышленные проекты. Эти технологии дают решения для биотоплива, пищевых добавок, фармацевтики, сельского хозяйства и экологии.\n\nСистемы культивирования, фотобиореакторы и продвинутая фильтрация позволяют получить максимум от микроорганизмов. Каждый проект строится на научной точности, промышленной эффективности и ответственности перед средой. Такой подход служит и коммерческому успеху, и устойчивому развитию.\n\nНаша миссия в биотехнологиях — создавать инновационные и экологичные решения, способные конкурировать в мире. Вместе с университетами, исследовательскими центрами и компаниями мы соединяем науку с производством и развиваем технологии на основе микроводорослей."
+      },
+      {
+        "id": "iplasma",
+        "title": "УСТАНОВКИ IPLASMA",
+        "body": "Установки IPLASMA — это высокотехнологичные решения для преобразования энергии и промышленных процессов. Используя плазменные технологии, Aslanlar Внешняя торговля создаёт инновационные комплексы для обращения с отходами, выработки энергии и обработки материалов. Прямое преобразование энергии снижает и выбросы углерода, и себестоимость.\n\nСистемы IPLASMA оптимизированы передовой инженерией. Каждый комплекс оснащён интеллектуальным управлением, которое постоянно анализирует энергетический баланс и повышает отдачу. Так у промышленных предприятий появляется устойчивая производственная база.\n\nНаша цель — принести энергетические технологии будущего в сегодняшний день. С установками IPLASMA предприятия получают высокую производительность и бережное отношение к среде. Энергетическая независимость и защита природы становятся возможны вместе."
+      },
+      {
+        "id": "mobil",
+        "title": "МОБИЛЬНЫЕ ЭНЕРГЕТИЧЕСКИЕ ТЕХНОЛОГИИ И РЕШЕНИЯ",
+        "body": "Aslanlar Внешняя торговля разрабатывает мобильные энергетические технологии, которые снимают ограничения доступа к энергии. Эти системы созданы для полевых работ, районов бедствий и мобильного производства: солнце, батареи и гибридные установки дают надёжную энергию в любых условиях.\n\nМобильные решения сделаны из экологичных материалов и опираются на батареи с долгим сроком службы. Интеллектуальное управление позволяет следить за потреблением и оптимизировать его. Энергия становится и выгодной, и устойчивой.\n\nНаше видение — сделать энергетическую инфраструктуру мобильной и упростить доступ к энергии для всех. Соединяя передовую инженерию и возобновляемые компоненты, мы создаём переносные энергосистемы, которые выделяются."
+      },
+      {
+        "id": "enerji",
+        "title": "ВОЗОБНОВЛЯЕМАЯ ЭНЕРГИЯ И ЭКОЛОГИЧЕСКИЕ РЕШЕНИЯ",
+        "body": "Возобновляемая энергия во многом определяет, как мы будем жить дальше. Aslanlar Внешняя торговля развивает экологичную генерацию: солнце, ветер, биомасса и водород служат и промышленности, и частным пользователям.\n\nОт проекта до внедрения мы держим высокую инженерную планку. Энергоэффективность, снижение выбросов и бережное производство — основа каждого проекта. Экономическая выгода и экологический баланс идут вместе.\n\nЭкологическую устойчивость мы считаем ответственностью, а не только целью. Каждый проект возобновляемой энергии создаётся с мыслью оставить следующим поколениям более пригодный для жизни мир."
+      },
+      {
+        "id": "mimari",
+        "title": "Индивидуальное строительство и передовые архитектурные решения",
+        "body": "Aslanlar Внешняя торговля реализует индивидуальные строительные проекты и передовые архитектурные решения в современной инженерной логике. Каждый проект соединяет облик, функцию и долговечность. Умные системы здания, новые материалы и энергоэффективность отличают нашу работу.\n\nАрхитектура согласована со средой, рассчитана на долгую службу и сильную техническую основу. Материалы и системы соответствуют международным стандартам, поэтому пространства безопасны и долговечны.\n\nМы проектируем не только здания, но и города будущего. Интеллектуальные архитектурные решения заново определяют облик города и комфорт жизни."
+      },
+      {
+        "id": "lojistik",
+        "title": "Логистика и внешняя торговля",
+        "body": "Aslanlar Внешняя торговля следует за меняющейся мировой торговлей и предлагает инновационные решения для импорта, экспорта и логистики. Международная сеть, сильная цепочка поставок и стратегические партнёрства доставляют ваши товары в любую точку мира.\n\nВ логистике для нас важны эффективность и время. Системы отслеживания, хранение и отдельные планы перевозки дают клиентам непрерывный сервис. На каждом этапе мы опираемся на прозрачность и доверие.\n\nНаша цель — быть стратегическим торговым партнёром, а не только поставщиком. Профессиональные решения под требования мирового рынка усиливают конкурентоспособность партнёров."
+      },
+      {
+        "id": "insaat",
+        "title": "Строительство",
+        "body": "Опыт в строительстве позволяет нам создавать современные, прочные и продуманные жилые и рабочие пространства. Для каждого проекта мы разрабатываем инновационный и устойчивый подход — и для частных, и для корпоративных задач.\n\nРабота, в центре которой надёжность и качество, охватывает путь от проекта до сдачи под ключ. Профессиональные команды сопровождают проектирование, архитектуру, техническую инфраструктуру и детальное планирование — и в небольших проектах, и в крупных стройках.\n\nНаша цель — не просто возводить объекты, а создавать долговечные проекты, которые повышают качество жизни и берегут среду. Доверие, качество и новаторство держат удовлетворённость клиентов на высшем уровне. Стройте будущее на прочном основании вместе с Aslanlar Внешняя торговля."
+      },
+      {
+        "id": "elektrik",
+        "title": "Электротехника и электроника",
+        "body": "Мы закрываем потребности бизнеса в электротехнике и электронике инновационными, надёжными и устойчивыми решениями. Современные технологии и команда специалистов охватывают путь от управления энергией до электронной инфраструктуры.\n\nМы рядом на всех этапах проекта: энергоэффективность, проектирование электроустановок, автоматизация и интеграция электронного оборудования. Решения под ваше предприятие снижают затраты и готовят инфраструктуру к будущему.\n\nНаша цель — не только поставить технику, но и обеспечить непрерывную надёжную работу проекта. Качество, безопасность и новаторство добавляют ценность вашим процессам. С профессиональным подходом Aslanlar Внешняя торговля электротехнические проекты реализуются уверенно."
+      },
+      {
+        "id": "otomotiv",
+        "title": "Автомобильная промышленность",
+        "body": "В автомобильной промышленности мы рядом с партнёрами благодаря технической экспертизе и новым решениям. От запасных частей до технической поддержки мы оказываем надёжную и качественную услугу в широком диапазоне.\n\nОбслуживание и ремонт, поставка запчастей и отраслевые консультации закрывают потребности предприятия. Быстрые решения не дают процессам останавливаться, а выгодные условия поддерживают бизнес.\n\nМы не только закрываем техническую задачу: следим за новинками отрасли и помогаем бизнесу идти вперёд. Доверие, качество и профессионализм делают нас сильным партнёром. Обратитесь в Aslanlar Внешняя торговля по задачам автопрома и продвиньте своё дело."
+      },
+      {
+        "id": "uzay",
+        "title": "Авиация и космос",
+        "body": "Мы предлагаем платформы, системы и поставки в авиации и космосе. Ведём техническое сопровождение и внешнеторговые процессы по истребителям, вертолётам, беспилотникам и малым спутникам."
+      }
+    ],
+    "contact": {
+      "eyebrow": "Контакты",
+      "title": "Свяжитесь с нами!",
+      "text": "Не откладывайте вопросы, запросы и идеи сотрудничества. Команда с радостью поможет вам в ближайшее время.",
+      "formTitle": "Форма обратной связи",
+      "formText": "Заполните форму ниже, чтобы связаться с нами. Мы здесь, чтобы принять ваши запросы и вопросы."
+    },
+    "footer": {
+      "blurb": "Aslanlar Внешняя торговля создаёт ценность для многих отраслей широким спектром услуг.",
+      "vision": "Стать ведущим брендом в стране и за её пределами благодаря инновационным и надёжным решениям в разных отраслях.",
+      "mission": "Оказывать клиентам надёжные и качественные услуги в каждой отрасли — от строительства и логистики до пищевой отрасли и автопрома.",
+      "reach": "Не откладывайте вопросы, запросы и идеи сотрудничества — свяжитесь с нами."
+    },
+    "legal": {
+      "cookies": "Сайт использует необходимые технические данные, которые сохраняет ваш браузер, чтобы страницы открывались правильно. Обязательные cookie нужны для сеанса, безопасности и настроек страницы.\n\nСейчас на сайте нет рекламных cookie и cookie сторонней аналитики. Удалить или заблокировать cookie можно в настройках браузера.",
+      "privacy": "Aslanlar Внешняя торговля использует имя, электронную почту, телефон и текст сообщения из формы только для ответа на ваш запрос.\n\nЭти сведения не продаются. Вопрос о данных или просьбу об удалении отправьте на info@aslanlardisticaret.com."
+    }
+  }
+}

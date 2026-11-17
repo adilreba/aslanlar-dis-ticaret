@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yönetim – Aslanlar Dış Ticaret</title>
+  <link rel="icon" href="/assets/logo-siyah.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/admin.css?v=7">
+</head>
+<body>
+  <main id="login" class="login">
+    <form id="login-form" class="panel">
+      <img src="/assets/logo-siyah.png" alt="Aslanlar Dış Ticaret">
+      <h1>Yönetim paneli</h1>
+      <p>Alanlar, sayfa yazıları, fotoğraflar ve gelen mesajlar tek yerden düzenlenir.</p>
+      <label for="username">Kullanıcı adı</label>
+      <input id="username" name="username" autocomplete="username" required>
+      <label for="password">Şifre</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required>
+      <p class="error" id="login-error"></p>
+      <button type="submit">Giriş yap</button>
+    </form>
+  </main>
+
+  <div id="app" class="app" hidden>
+    <aside>
+      <div class="brand">
+        <img src="/assets/logo-beyaz.png" alt="Aslanlar Dış Ticaret">
+      </div>
+      <nav>
+        <button data-tab="home" class="active"><span>Özet</span></button>
+        <button data-tab="sectors"><span>Alanlar</span><em data-count="sectors"></em></button>
+        <button data-tab="articles"><span>Hizmetler</span><em data-count="articles"></em></button>
+        <button data-tab="texts"><span>Sayfalar</span></button>
+        <button data-tab="gallery"><span>Galeri</span><em data-count="gallery"></em></button>
+        <button data-tab="messages"><span>Mesajlar</span><em data-count="messages"></em></button>
+      </nav>
+    </aside>
+    <div class="main">
+      <header class="topbar">
+        <div class="top-title">
+          <button id="nav-toggle" type="button" aria-label="Menüyü gizle">☰</button>
+          <div>
+            <p id="crumb" class="crumb">Yönetim</p>
+            <h1 id="title">Özet</h1>
+            <p id="lang-note" class="lang-note"></p>
+          </div>
+        </div>
+        <div class="top-actions">
+          <p id="toast" class="toast" role="status"></p>
+          <label class="lang-pick">Dil
+            <select id="lang" aria-label="Dil">
+              <option value="tr">Türkçe</option>
+              <option value="en">English</option>
+              <option value="ru">Русский</option>
+            </select>
+          </label>
+          <a id="open-site" class="ghost-link" href="/" target="_blank" rel="noopener">Siteyi aç</a>
+          <button id="logout" class="ghost" type="button">Çıkış</button>
+        </div>
+      </header>
+      <section id="view"></section>
+    </div>
+  </div>
+  <script src="/js/admin.js?v=7"></script>
+</body>
+</html>
