@@ -358,6 +358,13 @@ input:focus, textarea:focus { outline: 2px solid #ece7ff; border-color: var(--ac
   .hero h1, .hero p { margin-left: auto; margin-right: auto; }
   .hero-actions { flex-direction: column; align-items: center; }
   .hero-actions .btn { width: min(240px, 100%); }
+  .hero:not(.page-hero):not(.contact-hero) {
+    min-height: auto;
+    min-height: calc(100svh - 230px);
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .hero:not(.page-hero):not(.contact-hero) + .section { padding-top: 24px; }
   .cards .card { text-align: center; }
   .cards .card svg { display: block; margin: 0 auto; }
   .cards, .quality-grid, .shots, .expert, .footer-grid, .duo, .contact-grid, .mini-grid, .ticks, .goals, .goals-grid, .service-row, .reach { grid-template-columns: 1fr; }
